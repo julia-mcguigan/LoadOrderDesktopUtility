@@ -351,3 +351,11 @@ MigrationBackup/
 
 # Include releases from publish process for testing / deployment
 !releases/*
+!releases/latest
+!releases/latest/*.dll
+!releases/latest/*.exe
+!releases/latest/runtimes/*
+!releases/latest/*/
+!releases/latest/*/*.dll
+!releases/latest/*.pdb
+
